@@ -43,3 +43,10 @@ print(grupos_count[:5])
 print(grupos_mais_atividades)
 ['REPRESENTANTES COMERCIAIS E AGENTES DO COMÉRCIO, EXCETO DE VEÍCULOS AUTOMOTORES E MOTOCICLETAS']
 
+Após atualizar o sistema
+ETL().extract_cnae_data('https://servicodados.ibge.gov.br/api/v2/cnae/classes')
+
+Dados extraídos em: 2020/06/04 - 19:09:39
+Quantidade de atividades distintas = 673
+Quantidade de grupos distintos = 285
+Grupos com o maior número de atividades = ['REPRESENTANTES COMERCIAIS E AGENTES DO COMÉRCIO, EXCETO DE VEÍCULOS AUTOMOTORES E MOTOCICLETAS'], atividades = 9
