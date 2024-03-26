@@ -1,0 +1,45 @@
+Resultado do primeiro print(dados[0])
+
+{'id': '01113',
+ 'descricao': 'CULTIVO DE CEREAIS',
+ 'grupo': {'id': '011',
+ 'descricao': 'PRODUÇÃO DE LAVOURAS TEMPORÁRIAS',
+ 'divisao': {'id': '01',
+ 'descricao': 'AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS',
+ 'secao': {'id': 'A',
+ 'descricao': 'AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA'}}},
+ 'observacoes': ['Esta classe compreende - o cultivo de alpiste, arroz, aveia, centeio, cevada, milho, milheto, painço, sorgo, trigo, trigo preto, triticale e outros cereais  não especificados anteriormente',
+ 'Esta classe compreende ainda - o beneficiamento de cereais em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais, quando atividade complementar ao cultivo',
+ 'Esta classe NÃO compreende - a produção de sementes certificadas dos cereais desta classe, inclusive modificadas geneticamente (01.41-5)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (01.61-0)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (01.63-6)\r\n- o processamento ou beneficiamento de cereais em estabelecimento não-agrícola (grupo 10.4) e (grupo 10.6)\r\n- a produção de biocombustível (19.32-2)']
+}
+
+print(qtde_atividades_distintas)
+673
+
+print(grupos[:10])
+['PRODUÇÃO DE LAVOURAS TEMPORÁRIAS',
+ 'PRODUÇÃO DE LAVOURAS TEMPORÁRIAS',
+ 'PRODUÇÃO DE LAVOURAS TEMPORÁRIAS',
+ 'PRODUÇÃO DE LAVOURAS TEMPORÁRIAS',
+ 'PRODUÇÃO DE LAVOURAS TEMPORÁRIAS',
+ 'PRODUÇÃO DE LAVOURAS TEMPORÁRIAS',
+ 'PRODUÇÃO DE LAVOURAS TEMPORÁRIAS',
+ 'HORTICULTURA E FLORICULTURA',
+ 'HORTICULTURA E FLORICULTURA',
+ 'EXTRAÇÃO DE MINERAIS METÁLICOS NÃO-FERROSOS'
+]
+
+print(qtde_grupos_distintos)
+285 (removidas as duplicações)
+
+print(grupos_count[:5])
+[('TECELAGEM, EXCETO MALHA', 3),
+ ('COMÉRCIO ATACADISTA DE PRODUTOS DE CONSUMO NÃO-ALIMENTAR', 8),
+ ('ATIVIDADES DE ORGANIZAÇÕES ASSOCIATIVAS PATRONAIS, EMPRESARIAIS E PROFISSIONAIS', 2),
+ ('SEGURIDADE SOCIAL OBRIGATÓRIA', 1),
+ ('FABRICAÇÃO DE ELETRODOMÉSTICOS', 2)
+]
+
+print(grupos_mais_atividades)
+['REPRESENTANTES COMERCIAIS E AGENTES DO COMÉRCIO, EXCETO DE VEÍCULOS AUTOMOTORES E MOTOCICLETAS']
+
